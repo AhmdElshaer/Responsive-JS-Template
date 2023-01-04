@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Nu.3</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- setting Gear -->
+  <div class="setting-gear">
+    <div class="toggle-setting">
+      <i class="fa-sharp fa-solid fa-gear"></i>
+    </div>
+    <div class="setting-container">
+      <div class="option-box">
+        <h4>Colors</h4>
+        <ul class="colors-list">
+          <li data-color="#1cdbfc" class="active"></li>
+          <li data-color="#FF9800"></li>
+          <li data-color="#009688"></li>
+          <li data-color="#03A9F4"></li>
+          <li data-color="#4CAF50"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>Random Background</h4>
+        <div class="random-backgrounds">
+          <span class="yes active" data-background="yes">Yes</span>
+          <span class="no" data-background="no">No</span>
+        </div>
+      </div>
+      <hr>
+      <div class="option-box">
+        <h4>Show Bullets</h4>
+        <div class="bullets-option">
+          <span class="yes active" data-display="show">Show</span>
+          <span class="no" data-display="hide">Hide</span>
+        </div>
+      </div>
+      <button class="reset-options">Reset Options</button>
+    </div>
+  </div>
+
+  <!-- Nav Bullets -->
+  <div class="nav-bullets">
+    <div class="bullet" data-section="about">
+      <div class="tooltip">About</div>
+    </div>
+    <div class="bullet" data-section="skills">
+      <div class="tooltip">Our Skills</div>
+    </div>
+    <div class="bullet" data-section="gallery">
+      <div class="tooltip">Our Gallery</div>
+    </div>
+    <div class="bullet" data-section="timeline">
+      <div class="tooltip">Timeline</div>
+    </div>
+    <div class="bullet" data-section="features">
+      <div class="tooltip">Features</div>
+    </div>
+    <div class="bullet" data-section="testimonials">
+      <div class="tooltip">Testimonials</div>
+    </div>
+  </div>
+  
+  <!-- Landing Page -->
+  <div class="landing-page">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="header-area">
+        <div class="logo"><span>D</span>Coders</div>
+        <div class="links-container">
+          <ul class="links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonils">Testimonials</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>We Are creative <span>Developers</span></h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ad quae ipsa architecto dolorum expedita</p>
+      </div>
+    </div>
+    </div>
+  <!-- About us -->
+  <div class="container">
+    <div class="about" id="about">
+      <div class="info">
+        <h2>About Us</h2>
+        <p>We will deliver a good quality website, responsive and easy to use. We have fantastic team with awesome abilities and skills. Ae are here to help you with develop your own website.</p>
+      </div>
+      <div class="image">
+        <img src="imgs/about.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- our Skills -->
+  <div class="skills" id="skills">
+  <div class="container">
+      <h2>Our Skills</h2>
+      <div class="skill-box">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-progress">
+          <span data-progress="70%"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our Gallery  -->
+  <div class="gallery" id="gallery">
+    <div class="container">
+      <h2>Our Gallery</h2>
+      <div class="images-box">
+        <img src="imgs/gallery01.jpeg" alt="Image One">
+        <img src="imgs/gallery02.jpg" alt="Image Two">
+        <img src="imgs/gallery03.jpg" alt="Image Three">
+        <img src="imgs/gallery04.jpg" alt="Image Four">
+        <img src="imgs/gallery05.jpg" alt="Image Five">
+        <img src="imgs/gallery06.jpg" alt="">
+        <img src="imgs/gallery07.jpg" alt="">
+        <img src="imgs/gallery08.jpg" alt="">
+        <img src="imgs/gallery09.jpg" alt="">
+        <img src="imgs/gallery10.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- Timeline -->
+  <div class="timeline" id="timeline">
+    <div class="container">
+      <div class="timeline-content">
+        <div class="year">2022</div>
+
+        <div class="left">
+          <div class="content">
+            <h3>Done Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nobis illo dolores! Assumenda, ea praesentium.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>Done Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nobis illo dolores! Assumenda, ea praesentium.</p>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="year">2023</div>
+        <div class="left">
+          <div class="content">
+            <h3>To Do Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nobis illo dolores! Assumenda, ea praesentium.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="left">
+          <div class="content">
+            <h3>To Do Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nobis illo dolores! Assumenda, ea praesentium.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <div class="features" id="features">
+    <h2>Our Features</h2>
+    <div class="container">
+      <div class="feat-box">
+        <img src="imgs/feat01.png" alt="">
+        <h4>Development</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ducimus.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/feat02.png" alt="">
+        <h4>Marketing</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ducimus.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/feat03.jpg" alt="">
+        <h4>Database</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ducimus.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/feat04.jpg" alt="">
+        <h4>Hosting</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ducimus.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/feat05.jpg" alt="">
+        <h4>Clone and Servers</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ducimus.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/feat06.jpg" alt="">
+        <h4>SEO</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ducimus.</p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="testimonials" id="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="ts-box">
+        <p>Iam very happy with the product its amazing and i recieved it very fast and the price was amazing.</p>
+        <div class="person-info">
+          <img src="imgs/test01.png" alt="">
+          <h4>Mohamed Ahmed</h4>
+          <p>CEO At Company</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>Iam very happy with the product its amazing and i recieved it very fast and the price was amazing.</p>
+        <div class="person-info">
+          <img src="imgs/test02.png" alt="">
+          <h4>Baraa Ahmed</h4>
+          <p>Co.F of Company</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>Iam very happy with the product its amazing and i recieved it very fast and the price was amazing.</p>
+        <div class="person-info">
+          <img src="imgs/test03.png" alt="">
+          <h4>Ahmed Mahmoud</h4>
+          <p>M.Manager Of Co.,</p>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <!-- contact us -->
+  <div class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="">
+        <div class="left">
+          <input type="text" placeholder="Your Name" name="username">
+          <input type="text" placeholder="Your Phone" name="phone">
+          <input type="text" placeholder="Your Email" name="email">
+          <input type="text" placeholder="Subject" name="subject">
+        </div>
+        <div class="right">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer  -->
+  <div class="footer">Created by Ahmed Elshaer
+    <span>Thanks For Watching</span>
+  </div>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://kit.fontawesome.com/5d70f658f9.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
